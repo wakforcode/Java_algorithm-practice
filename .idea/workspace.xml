@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac05e242-2551-4f62-9f14-71da82c1a0f8" name="默认的" comment="" />
+    <list default="true" id="ac05e242-2551-4f62-9f14-71da82c1a0f8" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/src/FibonacciSequence.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +34,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1wW4VgJBdPhR9odbEcKm8it4UCX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,9 +50,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="应用程序.test02">
-    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array" />
+  <component name="RunManager" selected="应用程序.FibonacciSequence">
+    <configuration name="FibonacciSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FibonacciSequence" />
       <module name="letCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -64,11 +88,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.FibonacciSequence" />
         <item itemvalue="应用程序.test02" />
         <item itemvalue="应用程序.test01" />
         <item itemvalue="应用程序.Solution" />
         <item itemvalue="应用程序.ListNode" />
-        <item itemvalue="应用程序.Array" />
       </list>
     </recent_temporary>
   </component>
@@ -88,62 +112,49 @@
       <workItem from="1628841724602" duration="27943000" />
       <workItem from="1631238511058" duration="61000" />
       <workItem from="1632489513885" duration="11915000" />
+      <workItem from="1640073279863" duration="3815000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="421" height="466" key="DebuggerActiveHint" timestamp="1629013256816">
+    <state width="1398" height="218" key="GridCell.Tab.0.bottom" timestamp="1640076520246">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="421" height="466" key="DebuggerActiveHint/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1628648376483" />
-    <state width="421" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1629013256816" />
-    <state width="1398" height="218" key="GridCell.Tab.0.bottom" timestamp="1632623743364">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1629950112881" />
+    <state width="1398" height="218" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1640076520246" />
     <state width="1398" height="218" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1632623743364" />
     <state width="1398" height="218" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1632559095806" />
-    <state width="1398" height="218" key="GridCell.Tab.0.center" timestamp="1632623743360">
+    <state width="1398" height="218" key="GridCell.Tab.0.center" timestamp="1640076520241">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1629950112877" />
+    <state width="1398" height="218" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1640076520241" />
     <state width="1398" height="218" key="GridCell.Tab.0.center/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1632623743360" />
     <state width="1398" height="218" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1632559095804" />
-    <state width="1398" height="218" key="GridCell.Tab.0.left" timestamp="1632623743359">
+    <state width="1398" height="218" key="GridCell.Tab.0.left" timestamp="1640076520238">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1629950112875" />
+    <state width="1398" height="218" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1640076520238" />
     <state width="1398" height="218" key="GridCell.Tab.0.left/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1632623743359" />
     <state width="1398" height="218" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1632559095802" />
-    <state width="1398" height="218" key="GridCell.Tab.0.right" timestamp="1632623743362">
+    <state width="1398" height="218" key="GridCell.Tab.0.right" timestamp="1640076520243">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1629950112879" />
+    <state width="1398" height="218" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1640076520243" />
     <state width="1398" height="218" key="GridCell.Tab.0.right/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1632623743362" />
     <state width="1398" height="218" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1632559095805" />
-    <state width="1398" height="192" key="GridCell.Tab.1.bottom" timestamp="1629950081247">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="192" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1629950081247" />
-    <state width="1398" height="192" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1629014109373" />
-    <state width="1398" height="192" key="GridCell.Tab.1.center" timestamp="1629950081243">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="192" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1629950081243" />
-    <state width="1398" height="192" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1629014109369" />
-    <state width="1398" height="192" key="GridCell.Tab.1.left" timestamp="1629950081241">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="192" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1629950081241" />
-    <state width="1398" height="192" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1629014109367" />
-    <state width="1398" height="192" key="GridCell.Tab.1.right" timestamp="1629950081245">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="192" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1629950081245" />
-    <state width="1398" height="192" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1629014109371" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1632558487144">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
