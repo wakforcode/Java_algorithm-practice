@@ -6,30 +6,40 @@
  */
 public class FrogJump {
 
+    public static void main(String[] args) {
+        FrogJump frogJump = new FrogJump();
+        int i = frogJump.numWays(5);
+        System.out.println(i);
+    }
+
     public int numWays(int n) {
 
-        if (n==0||n==1){
+        if (n == 0 || n == 1) {
             return 1;
-        }else {
-            if(n==2){
-                return 2;
-            }
-
-            /**
-             * 因为青蛙每次只能跳1或者2
-             * 故将3作为一组
-             */
-            int a = (n / 2)*2;
-            if(n % 3==1){
-                a = a+1;
-            }else if(n%3==2){
-                a=a+2;
-            }
-            return a;
-
         }
-
+        if (n == 2) {
+            return 2;
+        }
+        /**
+         * 1 2 3 4 5 6 7
+         * 1 2 3 5 8
+         * 斐波那切数列
+         * 解法：递归
+         *      动态规划
+         */
+        int q = 0;
+        int p = 1;
+        int numWay = 2;
+        for (int i = 2; i < n; i++) {
+            q = p;
+            p = numWay;
+            numWay = (q + p)% 1000000007;;
+        }
+        return numWay;
 
     }
 
+
 }
+
+
