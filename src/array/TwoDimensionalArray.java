@@ -1,9 +1,11 @@
+package array;
+
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * @author wzk
- * @ClassName TwoDimensionalArray.java
+ * @ClassName array.TwoDimensionalArray.java
  * @Description 二维数组的查找
  * @createTime 2021年12月21日 17:07:00
  */

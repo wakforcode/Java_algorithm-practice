@@ -1,3 +1,5 @@
+package array;
+
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -5,7 +7,7 @@ import java.util.Set;
 
 /**
  * @author wzk
- * @ClassName Array.java
+ * @ClassName array.Array.java
  * @Description TODO
  * @createTime 2021年08月10日 18:56:00
  */
@@ -118,13 +120,13 @@ public class Array {
 
     /**
      * Definition for a binary tree node.
-     * public class TreeNode {
+     * public class treenode.TreeNode {
      * int val;
-     * TreeNode left;
-     * TreeNode right;
-     * TreeNode() {}
-     * TreeNode(int val) { this.val = val; }
-     * TreeNode(int val, TreeNode left, TreeNode right) {
+     * treenode.TreeNode left;
+     * treenode.TreeNode right;
+     * treenode.TreeNode() {}
+     * treenode.TreeNode(int val) { this.val = val; }
+     * treenode.TreeNode(int val, treenode.TreeNode left, treenode.TreeNode right) {
      * this.val = val;
      * this.left = left;
      * this.right = right;

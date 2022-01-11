@@ -1,9 +1,11 @@
+package listnode;
+
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * @author wzk
- * @ClassName ListNode.java
+ * @ClassName listnode.ListNode.java
  * @Description 翻转链表
  * @createTime 2021年08月10日 10:04:00
  */
@@ -52,12 +54,12 @@ public class ListNode {
 
     /**
      * Definition for singly-linked list.
-     * public class ListNode {
+     * public class listnode.ListNode {
      * int val;
-     * ListNode next;
-     * ListNode() {}
-     * ListNode(int val) { this.val = val; }
-     * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+     * listnode.ListNode next;
+     * listnode.ListNode() {}
+     * listnode.ListNode(int val) { this.val = val; }
+     * listnode.ListNode(int val, listnode.ListNode next) { this.val = val; this.next = next; }
      * }
      */
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -108,8 +110,8 @@ public class ListNode {
         ListNode l1 = new ListNode(2);
         ListNode l2 = new ListNode(4);
         ListNode l3 = new ListNode(3);
-//        ListNode l4 = new ListNode(8);
-//        ListNode l5 = new ListNode(12);
+//        listnode.ListNode l4 = new listnode.ListNode(8);
+//        listnode.ListNode l5 = new listnode.ListNode(12);
         l1.next = l2;
         l2.next = l3;
 //        l3.next = l4;
@@ -119,8 +121,8 @@ public class ListNode {
         ListNode l11 = new ListNode(7);
         ListNode l22 = new ListNode(6);
         ListNode l33 = new ListNode(4);
-//        ListNode l44 = new ListNode(4);
-//        ListNode l55 = new ListNode(9);
+//        listnode.ListNode l44 = new listnode.ListNode(4);
+//        listnode.ListNode l55 = new listnode.ListNode(9);
         l11.next = l22;
         l22.next = l33;
 //        l33.next = l44;
@@ -128,7 +130,7 @@ public class ListNode {
         ListNode listNode1 = addTwoNumbers(l1, l11);
         ListNode listNode2 = addTwoNumbers(l1, l11);
 
-//        ListNode listNode = reverseList(l1);
+//        listnode.ListNode listNode = reverseList(l1);
 //        System.out.println(json.toJSONString(listNode));
     }
 
