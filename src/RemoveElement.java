@@ -25,7 +25,7 @@ public class RemoveElement {
      * 输出：5, nums = [0,1,4,0,3]
      * 解释：函数应该返回新的长度 5, 并且 nums 中的前五个元素为 0, 1, 3, 0, 4。注意这五个元素可为任意顺序。你不需要考虑数组中超出新长度后面的元素。
      * <p>
-     * [0,1,2,2,3,0,4,2]
+     * [0,1,4,0,3,2,2,2]
      * <p>
      * [0,1,4,0,3]
      *
@@ -40,40 +40,40 @@ public class RemoveElement {
         }
         int left = 0;
         int right = nums.length - 1;
-        for (int i = 0; i < nums.length; i++) {
+        if (left == right) {
 
-            // 说明完成了替换 算长度
-            if(left==right||left==nums.length-1){
-                if(nums[left]==val){
-                    return left;
-                }else {
-                    return left-1;
-                }
+            if (nums[left] == val) {
+                return 0;
+            } else {
+                return 1;
             }
-
+        }
+        while (left != right) {
             if (nums[left] == val && nums[right] != val) {
                 nums[left] = nums[right];
                 nums[right] = val;
-                left++;
-                right--;
-            }else {
-                if(nums[left] != val){
+            } else {
+                if (nums[left] != val) {
                     left++;
-                }
-                if(nums[right] == val){
-
-                    right--;
+                } else {
+                    if (nums[right] == val) {
+                        right--;
+                    }
                 }
             }
         }
-        return 0;
+        if (nums[left] != val) {
+            return left + 1;
+        } else {
+            return left;
+        }
     }
 
     public static void main(String[] args) {
         RemoveElement removeElement = new RemoveElement();
 
-        int[] ints = {3,2,2,3};
-        int i = removeElement.removeElement(ints, 3);
+        int[] ints = {4,2,0,2,2,1,4,4,1,4,3,2};
+        int i = removeElement.removeElement(ints, 4);
 
         for (int j = 0; j < i; j++) {
 
