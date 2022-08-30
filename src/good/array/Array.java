@@ -1,4 +1,4 @@
-package array;
+package good.array;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -7,7 +7,7 @@ import java.util.Set;
 
 /**
  * @author wzk
- * @ClassName array.Array.java
+ * @ClassName good.array.Array.java
  * @Description TODO
  * @createTime 2021年08月10日 18:56:00
  */
@@ -120,13 +120,13 @@ public class Array {
 
     /**
      * Definition for a binary tree node.
-     * public class treenode.TreeNode {
+     * public class good.treenode.TreeNode {
      * int val;
-     * treenode.TreeNode left;
-     * treenode.TreeNode right;
-     * treenode.TreeNode() {}
-     * treenode.TreeNode(int val) { this.val = val; }
-     * treenode.TreeNode(int val, treenode.TreeNode left, treenode.TreeNode right) {
+     * good.treenode.TreeNode left;
+     * good.treenode.TreeNode right;
+     * good.treenode.TreeNode() {}
+     * good.treenode.TreeNode(int val) { this.val = val; }
+     * good.treenode.TreeNode(int val, good.treenode.TreeNode left, good.treenode.TreeNode right) {
      * this.val = val;
      * this.left = left;
      * this.right = right;

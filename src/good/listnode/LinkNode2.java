@@ -1,4 +1,4 @@
-package listnode;
+package good.listnode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.Stack;
 
 /**
  * @author wzk
- * @ClassName listnode.LinkNode2.java
+ * @ClassName good.listnode.LinkNode2.java
  * @Description 翻转链表
  * 输入一个链表的头节点，从尾到头反过来返回每个节点的值（用数组返回）。
  * 输入：head = [1,3,2]
@@ -95,8 +95,8 @@ public class LinkNode2 {
         ListNode l1 = new ListNode(1);
         ListNode l2 = new ListNode(2);
         ListNode l3 = new ListNode(3);
-//        listnode.ListNode l4 = new listnode.ListNode(8);
-//        listnode.ListNode l5 = new listnode.ListNode(12);
+//        good.listnode.ListNode l4 = new good.listnode.ListNode(8);
+//        good.listnode.ListNode l5 = new good.listnode.ListNode(12);
         l1.next = l2;
         l2.next = l3;
         LinkNode2 linkNode2 = new LinkNode2();

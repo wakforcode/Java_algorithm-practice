@@ -1,3 +1,5 @@
+package good;
+
 /**
  * @author wzk
  * @description
@@ -11,7 +13,7 @@ public class SearchInsert {
      * <p>
      * 示例 1:
      * <p>
-     * 输入: nums = [1,3,5,6,8], target = 0
+     * 输入: nums = [1,3,5,6,8], target = 7
      * 输出: 4
      * 示例2:
      * <p>
@@ -19,8 +21,8 @@ public class SearchInsert {
      * 输出: 1
      * 示例 3:
      * <p>
-     * 输入: nums = [1,3,5,6], target = 7
-     * 输出: 4
+     * 输入: nums = [1,3,5,7], target = 6
+     * 输出: 3
      *
      * @param nums
      * @param target
@@ -41,17 +43,23 @@ public class SearchInsert {
                 if(!(left + 1 == right)){
                     left = left + 1;
                     right = right - 1;
+                }else {
+                    return left+1;
                 }
             } else {
                 if (nums[left] > target) {
-                    if (left == 0) {
-                        return 0;
-                    } else {
-                        return left - 1;
-                    }
+                    return left;
+                }
+                if(nums[left] == target){
+                    return left;
+                }
+                if(nums[right] == target){
+                    return right;
                 }
                 if (nums[right] < target) {
                     return right + 1;
+                }else {
+                    return right;
                 }
             }
         }
@@ -63,7 +71,7 @@ public class SearchInsert {
 
         int[] ints = {1, 3, 5, 6};
 
-        int i = searchInsert.searchInsert(ints, 4);
+        int i = searchInsert.searchInsert(ints, 2);
         System.out.println(i);
 
     }

@@ -1,8 +1,8 @@
-package string;
+package good.string;
 
 /**
  * @author wzk
- * @ClassName string.ReplaceSpace.java
+ * @ClassName good.string.ReplaceSpace.java
  * @Description 替换空格
  * 请实现一个函数，把字符串 s 中的每个空格替换成"%20"。
  * @createTime 2021年12月22日 11:30:00

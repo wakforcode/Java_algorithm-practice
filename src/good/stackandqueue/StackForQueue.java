@@ -1,4 +1,4 @@
-package stackandqueue;
+package good.stackandqueue;
 
 import java.util.Deque;
 import java.util.LinkedList;

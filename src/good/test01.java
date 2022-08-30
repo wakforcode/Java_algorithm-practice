@@ -1,10 +1,12 @@
+package good;
+
 import com.sun.xml.internal.bind.v2.runtime.output.StAXExStreamWriterOutput;
 
 import java.util.Scanner;
 
 /**
  * @author wzk
-1 * @ClassName test01.java
+1 * @ClassName good.test01.java
  * @Description TODO
  * @createTime 2021年09月24日 21:19:00
  */

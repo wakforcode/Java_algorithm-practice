@@ -1,8 +1,8 @@
-package fibonacci;
+package good.fibonacci;
 
 /**
  * @author wzk
- * @ClassName fibonacci.FibonacciSequence.java
+ * @ClassName good.fibonacci.FibonacciSequence.java
  * @Description 斐波那切数列
  * F(N) = F(N - 1) + F(N - 2), 其中 N > 1.
  * @createTime 2021年12月21日 16:25:00

@@ -1,8 +1,10 @@
+package good;
+
 import java.util.Scanner;
 
 /**
  * @author wzk
- * @ClassName test02.java
+ * @ClassName good.test02.java
  * @Description TODO
  * @createTime 2021年09月25日 15:17:00
  */

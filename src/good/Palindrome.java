@@ -1,3 +1,5 @@
+package good;
+
 /**
  * @author wzk
  * @description

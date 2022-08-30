@@ -1,11 +1,11 @@
-package array;
+package good.array;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * @author wzk
- * @ClassName array.TwoDimensionalArray.java
+ * @ClassName good.array.TwoDimensionalArray.java
  * @Description 二维数组的查找
  * @createTime 2021年12月21日 17:07:00
  */

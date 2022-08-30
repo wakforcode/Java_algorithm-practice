@@ -1,11 +1,11 @@
-package listnode;
+package good.listnode;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * @author wzk
- * @ClassName listnode.ListNode.java
+ * @ClassName good.listnode.ListNode.java
  * @Description 翻转链表
  * @createTime 2021年08月10日 10:04:00
  */
@@ -54,12 +54,12 @@ public class ListNode {
 
     /**
      * Definition for singly-linked list.
-     * public class listnode.ListNode {
+     * public class good.listnode.ListNode {
      * int val;
-     * listnode.ListNode next;
-     * listnode.ListNode() {}
-     * listnode.ListNode(int val) { this.val = val; }
-     * listnode.ListNode(int val, listnode.ListNode next) { this.val = val; this.next = next; }
+     * good.listnode.ListNode next;
+     * good.listnode.ListNode() {}
+     * good.listnode.ListNode(int val) { this.val = val; }
+     * good.listnode.ListNode(int val, good.listnode.ListNode next) { this.val = val; this.next = next; }
      * }
      */
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -110,8 +110,8 @@ public class ListNode {
         ListNode l1 = new ListNode(2);
         ListNode l2 = new ListNode(4);
         ListNode l3 = new ListNode(3);
-//        listnode.ListNode l4 = new listnode.ListNode(8);
-//        listnode.ListNode l5 = new listnode.ListNode(12);
+//        good.listnode.ListNode l4 = new good.listnode.ListNode(8);
+//        good.listnode.ListNode l5 = new good.listnode.ListNode(12);
         l1.next = l2;
         l2.next = l3;
 //        l3.next = l4;
@@ -121,8 +121,8 @@ public class ListNode {
         ListNode l11 = new ListNode(7);
         ListNode l22 = new ListNode(6);
         ListNode l33 = new ListNode(4);
-//        listnode.ListNode l44 = new listnode.ListNode(4);
-//        listnode.ListNode l55 = new listnode.ListNode(9);
+//        good.listnode.ListNode l44 = new good.listnode.ListNode(4);
+//        good.listnode.ListNode l55 = new good.listnode.ListNode(9);
         l11.next = l22;
         l22.next = l33;
 //        l33.next = l44;
@@ -130,7 +130,7 @@ public class ListNode {
         ListNode listNode1 = addTwoNumbers(l1, l11);
         ListNode listNode2 = addTwoNumbers(l1, l11);
 
-//        listnode.ListNode listNode = reverseList(l1);
+//        good.listnode.ListNode listNode = reverseList(l1);
 //        System.out.println(json.toJSONString(listNode));
     }
 

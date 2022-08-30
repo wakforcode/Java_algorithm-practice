@@ -1,10 +1,10 @@
-package listnode;
+package good.listnode;
 
 import java.util.Stack;
 
 /**
  * @author wzk
- * @ClassName listnode.LinkNode2.java
+ * @ClassName good.listnode.LinkNode2.java
  * @Description 翻转链表
  * 输入一个链表的头节点，从尾到头反过来返回每个节点的值（用数组返回）。
  * 输入：head = [1,3,2]
@@ -85,22 +85,22 @@ public class LinkNode3 {
 //        }
 //
 //
-//        listnode.ListNode temp = null;
+//        good.listnode.ListNode temp = null;
 //        while (l1 != null || l2 != null) {
 //
 //            if (l1 != null && l2 != null) {
 //                if (l1.val <= l2.val) {
-//                    temp = new listnode.ListNode(l1.val);
+//                    temp = new good.listnode.ListNode(l1.val);
 //                    l1 = l1.next;
 //                } else {
-//                    temp = new listnode.ListNode(l2.val);
+//                    temp = new good.listnode.ListNode(l2.val);
 //                    l2 = l2.next;
 //                }
 //            } else if (l2 == null) {
-//                temp = new listnode.ListNode(l1.val);
+//                temp = new good.listnode.ListNode(l1.val);
 //                l1 = l1.next;
 //            } else {
-//                temp = new listnode.ListNode(l2.val);
+//                temp = new good.listnode.ListNode(l2.val);
 //                l2 = l2.next;
 //            }
 //        }

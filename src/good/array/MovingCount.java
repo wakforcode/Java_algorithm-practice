@@ -1,8 +1,8 @@
-package array;
+package good.array;
 
 /**
  * @author wzk
- * @ClassName array.MovingCount.java
+ * @ClassName good.array.MovingCount.java
  * @Description TODO
  * @createTime 2021年12月22日 18:02:00
  */

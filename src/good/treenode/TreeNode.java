@@ -1,8 +1,8 @@
-package treenode;
+package good.treenode;
 
 /**
  * @author wzk
- * @ClassName treenode.TreeNode.java
+ * @ClassName good.treenode.TreeNode.java
  * @Description 树
  * <p>
  * DLR--前序遍历（根在前，从左往右，一棵树的根永远在左子树前面，左子树又永远在右子树前面 ）
